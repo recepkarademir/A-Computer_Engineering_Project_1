@@ -1,7 +1,6 @@
 
-# CUMHURİYET ÜNİVERSİTESİ MÜHENDİSLİK FAKÜLTESİ
-# BİLGİSAYAR MÜHENDİSLİĞİ BÖLÜMÜ
-Mühendislik Projesi Dersi Ödev 1
+
+# Mühendislik Projesi Dersi Ödev 1
 ------------------------------
 
 HASH TABLOSUNDA KELİME ARAMA
@@ -12,6 +11,7 @@ Recep KARADEMİR
 
 2015141003@cumhuriyet.edu.tr
 ____________________________________________________________________________________________________________________________________
+
 Özet:
 ------------------------------
 Text.txt adında içerisinde 100 adet kelime bulunan metin dosyasında istediğimiz kelimeyi en hızlı bir şekilde arayan program hazırlanacaktır. Hızlı aramanın yapılabilmesi için metin dosyasındaki kelimeler belleğe quadratic sondalama yöntemiyle yerleştirilecektir. Arama quadratic sondalama ile yapılacak.
@@ -50,8 +50,9 @@ Aranan kelime fonksiyonlar yardımıyla global string dizinde aranacaktır.
 Çakışan kelimeler çıktı olarak verilecektir.
 Örneğin spiral kelimesi arandığında çıktı:
 
-Aranan kelime 166. indiste bulunmaktadır.
-Kelime 5 kez boş yer aramış.  5. denemedeki yere yerleşmiş.
+      Aranan kelime 166. indiste bulunmaktadır.
+      Kelime 5 kez boş yer aramış.  5. denemedeki yere yerleşmiş. 
 
-olarak bulunacaktır. 
+
+şeklinde olacaktır.
 ___________________________________________________________________________________________________________________________________
