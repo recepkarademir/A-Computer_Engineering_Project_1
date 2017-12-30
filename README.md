@@ -2,9 +2,10 @@
 CUMHURİYET ÜNİVERSİTESİ MÜHENDİSLİK FAKÜLTESİ
 BİLGİSAYAR MÜHENDİSLİĞİ BÖLÜMÜ
 
-Mühendislik Projesi Dersi 1.ödev
-HASH TABLOSUNDA KELİME ARAMA
+Mühendislik Projesi Dersi Ödev 1
 
+HASH TABLOSUNDA KELİME ARAMA
+___________________________________________________________________________________________________________________________________
 1 Aralık 2017	
 
 Recep KARADEMİR
@@ -53,3 +54,4 @@ Aranan kelime 166. indiste bulunmaktadır.
 Kelime 5 kez boş yer aramış.  5. denemedeki yere yerleşmiş.
 
 olarak bulunacaktır. 
+___________________________________________________________________________________________________________________________________
