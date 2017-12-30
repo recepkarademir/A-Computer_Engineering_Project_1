@@ -1,4 +1,4 @@
-![Search logo](http://searchengineland.com/figz/wp-content/seloads/2014/08/search-engines-all-category-ss-1920-800x450.jpg)
+![Search logo](https://www.epo.org/searching-for-patents/technical/espacenet/espacenet.jpg)
 
 # Mühendislik Projesi Dersi Ödev 1
 HASH TABLOSUNDA KELİME ARAMA
@@ -56,3 +56,10 @@ Aranan kelime fonksiyonlar yardımıyla global string dizinde aranacaktır.
 
 şeklinde olacaktır.
 ___________________________________________________________________________________________________________________________________
+
+İletişim
+------------------------------
+
+http://www.recepkarademir.com
+https://recepkarademir.blogspot.com.tr
+https://recepkarademir.wordpress.com
