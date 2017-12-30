@@ -1,8 +1,15 @@
+
 CUMHURİYET ÜNİVERSİTESİ MÜHENDİSLİK FAKÜLTESİ
 BİLGİSAYAR MÜHENDİSLİĞİ BÖLÜMÜ
+
 Mühendislik Projesi Dersi 1.ödev
 HASH TABLOSUNDA KELİME ARAMA
 
+Dev-C++
+1 Aralık 2017	
+Recep KARADEMİR
+2015141003@cumhuriyet.edu.tr
+____________________________________________________________________________________________________________________________________
 Özet:
 Text.txt adında içerisinde 100 adet kelime bulunan metin dosyasında istediğimiz kelimeyi en hızlı bir şekilde arayan program hazırlanacaktır. Hızlı aramanın yapılabilmesi için metin dosyasındaki kelimeler belleğe quadratic sondalama yöntemiyle yerleştirilecektir. Arama quadratic sondalama ile yapılacak.
 
@@ -44,4 +51,3 @@ Aranan kelime 166. indiste bulunmaktadır.
 Kelime 5 kez boş yer aramış.  5. denemedeki yere yerleşmiş.
 
 olarak bulunacaktır. 
-
