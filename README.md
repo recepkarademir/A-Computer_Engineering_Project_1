@@ -1,33 +1,47 @@
-Telif Hakkı (c) 2017 Recep Karademir
+CUMHURİYET ÜNİVERSİTESİ MÜHENDİSLİK FAKÜLTESİ
+BİLGİSAYAR MÜHENDİSLİĞİ BÖLÜMÜ
+Mühendislik Projesi Dersi 1.ödev
+HASH TABLOSUNDA KELİME ARAMA
 
-Hiçbir ücret talep edilmeden burada işbu yazılımın bir kopyasını ve belgelendirme dosyalarını (“Yazılım”) elde eden herkese verilen izin; kullanma, kopyalama, değiştirme, birleştirme, yayımlama, dağıtma, alt lisanslama, ve/veya yazılımın kopyalarını satma eylemleri de dahil olmak üzere ve bununla kısıtlama olmaksızın, yazılımın sınırlama olmadan ticaretini yapmak için verilmiş olup, bunları yapmaları için yazılımın sağlandığı kişilere aşağıdakileri yapmak koşuluyla sunulur:
-
-Yukarıdaki telif hakkı bildirimi ve işbu izin bildirimi yazılımın tüm kopyalarına veya önemli parçalarına eklenmelidir. 
-
-YAZILIM “HİÇBİR DEĞİŞİKLİK YAPILMADAN” ESASINA BAĞLI OLARAK, TİCARETE ELVERİŞLİLİK, ÖZEL BİR AMACA UYGUNLUK VE İHLAL OLMAMASI DA DAHİL VE BUNUNLA KISITLI OLMAKSIZIN AÇIKÇA VEYA ÜSTÜ KAPALI OLARAK HİÇBİR TEMİNAT OLMAKSIZIN SUNULMUŞTUR. HİÇBİR KOŞULDA YAZARLAR VEYA TELİF HAKKI SAHİPLERİ HERHANGİ BİR İDDİAYA, HASARA VEYA DİĞER YÜKÜMLÜLÜKLERE KARŞI, YAZILIMLA VEYA KULLANIMLA VEYA YAZILIMIN BAŞKA BAĞLANTILARIYLA İLGİLİ, BUNLARDAN KAYNAKLANAN VE BUNLARIN SONUCU BİR SÖZLEŞME DAVASI, HAKSIZ FİİL VEYA DİĞER EYLEMLERDEN SORUMLU DEĞİLDİR.
+Özet:
+Text.txt adında içerisinde 100 adet kelime bulunan metin dosyasında istediğimiz kelimeyi en hızlı bir şekilde arayan program hazırlanacaktır. Hızlı aramanın yapılabilmesi için metin dosyasındaki kelimeler belleğe quadratic sondalama yöntemiyle yerleştirilecektir. Arama quadratic sondalama ile yapılacak.
 
 
-Copyright (c) 2017 Recep Karademir
 
-Permission is hereby granted, free of charge, to any person obtaining
-a copy of this software and associated documentation files (the
-"Software"), to deal in the Software without restriction, including
-without limitation the rights to use, copy, modify, merge, publish,
-distribute, sublicense, and/or sell copies of the Software, and to
-permit persons to whom the Software is furnished to do so, subject to
-the following conditions:
+GİRİŞ
 
-The above copyright notice and this permission notice shall be included
-in all copies or substantial portions of the Software.
+Metin dosyasında bulunan kelimelerin Hash Tablosu mantığı kullanılarak bir diziye kopyalanması ve bu dizide arama işleminin en hızlı şekilde yapılması.
+Arama yapılırken birebir eşleşen kelime dışında benzer kelimelerin de bulunabilmesi için yapılan işlemler içermektedir.
+Metin belgesi içerisindeki kelimeler konumlarına göre quadratic sondalama kullanılarak belleğe yüklenmeli ve bellekten hızlı arama yapılmalıdır.
+Metin dosyasında aranan kelimenin dosyada kaç kez tekrar ettiğini veya yerleşebileceği yerlere daha önceden nelerin yerleştiğini yazdıran bir program hazırlanmıştır.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND,
-EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF
-MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY
-CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT,
-TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE
-SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
 
-## Welcome to GitHub Pages
 
+UYGULAMA
+
+C++ ile yazdığım program, Text.txt dosyasındaki kelimeleri fonksiyonlar kullanarak aramaktadır.
+Program çalışma detayları şu şekildedir :
+Text.txt dosya içerisinde boş satır olmamalı ! 
+Boş satır olursa beklenmedik hatalar alınabilir veya boş satır diziye eklenir.
+Text.txt dosya içerisinde satırlarda yazan elemanlardan sonra boşluk olmamalı ! Elemanlardan sonra boşluk olursa beklenmedik hatalar alınabilir.
+Elemanlardan sonra boşluk olursa eleman+boşluk diziye eklenir ve dizide eleman+boşluk şeklinde aranmalıdır.
+Aranacak kelime Text.txt içerisinde varsa derste anlatıldığı gibi program onu bulup bitecektir. Eksilterek veya yer değiştirerek aramayacaktır.
+Text.txt  içerisindeki kelimelerin on harften kısa olması görsel çıktı için daha uygun olacaktır.
+Program birebir arama ve yer değiştirerek arama yapabilmektedir.
+Program eksilterek arama yapamamaktadır. Eksilterek hangi kelimelerin aranacağını yazdırabilmektedir.
+İngiliz alfabesi ile yazılan büyük veya küçük harfli kelimeleri arayabilmektedir.
+
+
+
+SONUÇLAR
+
+Program global değişkenler yardımıyla fonksiyonlar içerisinde işlem yapmaktadır.
+Aranan kelime fonksiyonlar yardımıyla global string dizinde aranacaktır.
+Çakışan kelimeler çıktı olarak verilecektir.
+Örneğin spiral kelimesi arandığında çıktı:
+
+Aranan kelime 166. indiste bulunmaktadır.
+Kelime 5 kez boş yer aramış.  5. denemedeki yere yerleşmiş.
+
+olarak bulunacaktır. 
 
