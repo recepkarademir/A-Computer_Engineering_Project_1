@@ -1,10 +1,10 @@
 
-CUMHURİYET ÜNİVERSİTESİ MÜHENDİSLİK FAKÜLTESİ
-BİLGİSAYAR MÜHENDİSLİĞİ BÖLÜMÜ
-
+# CUMHURİYET ÜNİVERSİTESİ MÜHENDİSLİK FAKÜLTESİ
+# BİLGİSAYAR MÜHENDİSLİĞİ BÖLÜMÜ
 Mühendislik Projesi Dersi Ödev 1
+------------------------------
 
-HASH TABLOSUNDA KELİME ARAMA
+# HASH TABLOSUNDA KELİME ARAMA
 ___________________________________________________________________________________________________________________________________
 1 Aralık 2017	
 
@@ -13,13 +13,13 @@ Recep KARADEMİR
 2015141003@cumhuriyet.edu.tr
 ____________________________________________________________________________________________________________________________________
 Özet:
-
+------------------------------
 Text.txt adında içerisinde 100 adet kelime bulunan metin dosyasında istediğimiz kelimeyi en hızlı bir şekilde arayan program hazırlanacaktır. Hızlı aramanın yapılabilmesi için metin dosyasındaki kelimeler belleğe quadratic sondalama yöntemiyle yerleştirilecektir. Arama quadratic sondalama ile yapılacak.
 
 
 
 GİRİŞ
-
+------------------------------
 Metin dosyasında bulunan kelimelerin Hash Tablosu mantığı kullanılarak bir diziye kopyalanması ve bu dizide arama işleminin en hızlı şekilde yapılması.
 Arama yapılırken birebir eşleşen kelime dışında benzer kelimelerin de bulunabilmesi için yapılan işlemler içermektedir.
 Metin belgesi içerisindeki kelimeler konumlarına göre quadratic sondalama kullanılarak belleğe yüklenmeli ve bellekten hızlı arama yapılmalıdır.
@@ -28,7 +28,7 @@ Metin dosyasında aranan kelimenin dosyada kaç kez tekrar ettiğini veya yerle�
 
 
 UYGULAMA
-
+------------------------------
 C++ ile yazdığım program, Text.txt dosyasındaki kelimeleri fonksiyonlar kullanarak aramaktadır.
 Program çalışma detayları şu şekildedir :
 Text.txt dosya içerisinde boş satır olmamalı ! 
@@ -44,7 +44,7 @@ Program eksilterek arama yapamamaktadır. Eksilterek hangi kelimelerin aranacağ
 
 
 SONUÇLAR
-
+------------------------------
 Program global değişkenler yardımıyla fonksiyonlar içerisinde işlem yapmaktadır.
 Aranan kelime fonksiyonlar yardımıyla global string dizinde aranacaktır.
 Çakışan kelimeler çıktı olarak verilecektir.
