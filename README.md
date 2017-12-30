@@ -62,6 +62,6 @@ ________________________________________________________________________________
 
 www.recepkarademir.com
 
-recepkarademir.blogspot.com.tr
+https://recepkarademir.blogspot.com.tr
 
-recepkarademir.wordpress.com
+https://recepkarademir.wordpress.com
