@@ -60,8 +60,8 @@ ________________________________________________________________________________
 
 2015141003@cumhuriyet.edu.tr
 
-http://www.recepkarademir.com
+www.recepkarademir.com
 
-https://recepkarademir.blogspot.com.tr
+recepkarademir.blogspot.com.tr
 
-https://recepkarademir.wordpress.com
+recepkarademir.wordpress.com
