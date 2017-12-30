@@ -1,4 +1,4 @@
-
+![Search logo](http://searchengineland.com/figz/wp-content/seloads/2014/08/search-engines-all-category-ss-1920-800x450.jpg)
 
 # Mühendislik Projesi Dersi Ödev 1
 HASH TABLOSUNDA KELİME ARAMA
@@ -46,9 +46,11 @@ SONUÇLAR
 Program global değişkenler yardımıyla fonksiyonlar içerisinde işlem yapmaktadır.
 Aranan kelime fonksiyonlar yardımıyla global string dizinde aranacaktır.
 Çakışan kelimeler çıktı olarak verilecektir.
-Örneğin spiral kelimesi arandığında çıktı:
+Örneğin 52 değeri arandığında çıktı:
 
-      Aranan kelime 166. indiste bulunmaktadır.
+![Hash_Table logo](https://www.sysadmins.lv/content/images/articles/hashtable-behind-the-scenes/linear-probing-search.png)
+
+      Aranan değer 6. indiste bulunmaktadır.
       Kelime 5 kez boş yer aramış.  5. denemedeki yere yerleşmiş. 
 
 
