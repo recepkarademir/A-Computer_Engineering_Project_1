@@ -3,7 +3,7 @@
 # Mühendislik Projesi Dersi Ödev 1
 HASH TABLOSUNDA KELİME ARAMA
 ------------------------------
-1 Aralık 2017	
+1 Aralık 2017	 [![License](https://img.shields.io/badge/license-MIT-green.svg?style=flat)](https://github.com/fastlane/fastlane/blob/master/LICENSE)
 
 Recep KARADEMİR
 ____________________________________________________________________________________________________________________________________
