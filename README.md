@@ -46,8 +46,6 @@ Aranan kelime fonksiyonlar yardımıyla global string dizinde aranacaktır.
 Çakışan kelimeler çıktı olarak verilecektir.
 Örneğin 52 değeri arandığında çıktı:
 
-![Hash_Table logo](https://www.sysadmins.lv/content/images/articles/hashtable-behind-the-scenes/linear-probing-search.png)
-
       Aranan değer 6. indiste bulunmaktadır.
       Kelime 5 kez boş yer aramış.  5. denemedeki yere yerleşmiş. 
 
