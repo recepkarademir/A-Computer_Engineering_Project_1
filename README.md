@@ -55,11 +55,6 @@ ________________________________________________________________________________
 
 İletişim
 ------------------------------
-
-2015141003@cumhuriyet.edu.tr
-
-www.recepkarademir.com
-
 https://recepkarademir.blogspot.com.tr
 
 https://recepkarademir.wordpress.com
